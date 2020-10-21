@@ -2,7 +2,7 @@ import cv2
 from random import randrange
 
 #this loads some pre trainded data on frontal faces in opencv
-trained_face_data=cv2.CascadeClassifier('C:\\Users\\user\\Desktop\\Python\\tensorEnv\\facedetection real time\\haarcascade_frontalface_default.xml')
+trained_face_data=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #camera(the default one)
 webcam=cv2.VideoCapture(0)
